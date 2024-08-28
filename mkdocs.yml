@@ -1,0 +1,8 @@
+site_name: "test-scaffoldedfromLink-23432df"
+site_description: "test-scaffoldedfromLink-23432"
+
+nav:
+  - Introduction: index.md
+
+plugins:
+  - techdocs-core

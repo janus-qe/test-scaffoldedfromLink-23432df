@@ -1,0 +1,17 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: test-scaffoldedfromLink-23432df
+  description: test-scaffoldedfromLink-23432
+  annotations:
+    github.com/project-slug: janus-qe/test-scaffoldedfromLink-23432df
+    backstage.io/techdocs-ref: dir:.
+    backstage.io/createdAt: 8/28/2024, 6:40:50 AM
+    custom.io/other: value
+  labels:
+    other: test-label
+spec:
+  type: website
+  lifecycle: experimental
+  owner: group:janus-qe/maintainers
+  scaffoldedFrom: template:default/create-react-app-template-with-timestamp-entityref
